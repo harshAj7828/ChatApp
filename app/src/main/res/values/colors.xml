@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#4E7BB8</color>
+    <color name="primaryDark">#142232</color>
+    <color name="primaryText">#212121</color>
+    <color name="primarySecondary">#757575</color>
+    <color name="inputBack">#ECECEC</color>
+    <color name="iconBack">#20FFFF</color>
+    <color name="error">#B00020</color>
+    <color name="message">#090D16</color>
+    <color name="BlackW3C">#000000</color>
+    <color name="PlatinumGray">#797979</color>
+    <color name="DarkBlueGrey">#29465B</color>
+</resources>
