@@ -1,11 +1,11 @@
 package com.example.chatapp.HelperClass;
 
 public class MessageHelperClass {
-    String name,mobile,lastMessage,email,password,profilePic;
+    String name,mobile,lastMessage,email,password,profilePic,chatKey;
 
     private int unseenMessage;
 
-    public MessageHelperClass(String name, String mobile, String lastMessage, String email,String profilePic, String password, int unseenMessage) {
+    public MessageHelperClass(String name, String mobile, String lastMessage, String email,String profilePic, String password, int unseenMessage,String chatKey) {
         this.name = name;
         this.mobile = mobile;
         this.lastMessage = lastMessage;
@@ -13,6 +13,15 @@ public class MessageHelperClass {
         this.profilePic = profilePic;
         this.password = password;
         this.unseenMessage = unseenMessage;
+        this.chatKey = chatKey;
+    }
+
+    public String getChatKey() {
+        return chatKey;
+    }
+
+    public void setChatKey(String chatKey) {
+        this.chatKey = chatKey;
     }
 
     public String getProfilePic() {
